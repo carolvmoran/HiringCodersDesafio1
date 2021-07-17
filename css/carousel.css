@@ -1,0 +1,56 @@
+/* Primeiro Carousel  */
+div.carouselMain {
+    width: 90%;
+    margin-bottom: 72px;
+    padding: 0;
+}
+/* Imagems */
+div.carouselMain img {
+    width: 90%;
+    left: 0px;
+}
+/* Setas  */
+div.carouselMain .slick-next.slick-arrow {
+    right: 38px;
+    top: 35%;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+
+div.carouselMain .slick-prev.slick-arrow {
+    z-index: 1000;
+    top: 59.5%;
+    left: 95.3%;
+    transform: translate(0, -50%) rotate(-90deg);
+}
+/* Dots  */
+div.carouselMain .slick-dots {
+    right: 0;
+    bottom: 50% !important;
+    transform: rotate(90deg);
+    width: auto !important;
+}
+/* Segundo Carousel  */
+div.carousel2 {
+    margin-bottom: 70px;
+}
+/* Imagems  */
+img.imgInsta {
+    width: 218px;
+}
+/* Setas */
+button.slick-arrow::before {
+    color: #000;
+}
+div.carousel2 .slick-next.slick-arrow {
+    z-index: 1001;
+    top: 107%;
+    right: 430px;
+}
+div.carousel2 .slick-prev.slick-arrow {
+    z-index: 1001;
+    top: 107%;
+    left: 430px;
+}
+
+
+
