@@ -118,10 +118,7 @@
 /* Dots  */
 @media only screen and (max-width: 576px) {
     div.carouselMain .slick-dots {
-        right: -5%;
-        bottom: -25px !important;
-        transform: rotate(0deg);
-        width: 100% !important;
+        display: none;
     }  
 }
 
@@ -131,6 +128,13 @@
         z-index: 1001;
         top: 107%;
         right: 98px;
+    }
+
+    div.carousel3 .slick-dots {
+        display: none;
+    }
+    div.carousel2 .slick-dots {
+        display: none;
     }
 }
 @media only screen and (max-width: 576px) {
@@ -190,7 +194,7 @@
 }
 /* Botão  */
 @media only screen and (max-width: 576px) {
-    button.btnViewCollection {
+    .btnViewCollection {
         width: 331px;    
     }
 }
@@ -280,12 +284,14 @@
 }
 @media only screen and (max-width: 576px) {
     div.tecsFooter .tecs {
+        display: none;
         order: 3;
     }  
 }
 @media only screen and (max-width: 576px) {
     div.tecsFooter .secure {
         order: 2;
+        display: none;
     }  
 }
 
