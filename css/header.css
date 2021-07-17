@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Cabeçalho */
+header {
+    width: 100%;
+    background-color: #000;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Menu Principal */
+.nav1 {
+    border-bottom: 5px solid #fff;    
+    height: 80px;
+}
+
+nav .nav1 ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0;
+}
+/* container de icones do Menu Principal (direita)  */
+nav .nav1 ul ul.icons {
+    width: 160px;
+}
+/* Elementos do Menu principal */
+nav .nav1 ul li a img.iconNav {
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav1 ul li img.logo {
+    width: 195px;
+}
+
+/* campo de Busca do Menu Principal */
+
+nav .nav1 ul form input.search {
+    width: 280px;
+    height: 27px;
+    padding-bottom: 14px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+nav .nav1 ul form input.search::placeholder {
+    color: #fff;
+    font-size: 13px;
+}
+nav .nav1 ul form.form-inline {
+    position: relative;
+}
+nav .nav1 ul form button.btnSearch {
+    border: none;
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 8px;
+    right: 0;
+    padding: 0;
+    background-color: transparent;
+}
+/* Icones */
+nav .nav1 ul ul li a img.icon {
+    width: 24px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+nav .nav1 ul ul li a img.iconBag {
+    margin-bottom: 0px;
+}
+
+/* campo abaixo do meuno principal */
+nav div.nav2 .containerDownNav {
+    height: 27px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Textos */
+nav div.nav2 .containerDownNav .textInform1 { 
+    font-size: 12px;
+    color: #fff;
+    text-align: start;
+}
+
+nav div.nav2 .containerDownNav .textInform2 {
+    font-size: 12px;
+    color: #fff;
+    text-align: end;
+
+}
