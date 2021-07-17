@@ -1,0 +1,125 @@
+/* Titulo  */
+div.bestSellers {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+    margin: 70px 0 30px 0;
+}
+/* topo da imagem com coração e promoção */
+div.boxFavorite {
+    position: relative;
+}
+div.favorite {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+div.boxSale {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+img.heart {
+    width: 21px;
+    height: 20px;
+}
+/* imagem do produto */
+img.product {
+    width: 100%;
+    height: 380px;
+    margin-bottom: 10px;
+}
+/* Botões */
+div.buyButtonsContainer {
+    position: relative;
+    opacity: 0;
+}
+div.hoverButton:hover .buyButtonsContainer{
+    opacity: 1;
+}
+div.buyButtons {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    bottom: 10px;
+    cursor: pointer;
+}
+button.buy {
+    color: #fff;
+    height: 50px;
+    background-color: #000;
+    width: 50%;
+    font-weight: normal;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;    
+}
+button.tolook {
+    width: 50%;
+    height: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+img.eye {
+    width: 15px;
+    height: 15px;
+}
+div.textToLook {
+    font-weight: normal;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/* Descrição do produto */
+div.productName {
+    color: #656667;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: start;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+div.price {
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
+}
+div.oldPrice {
+    color: #BA0038;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: line-through;
+}
+div.newPrice {
+    color: #000;
+    font-weight: bold;
+    line-height: 20px;
+}
+div.creditCard {
+    font-size: 13px;
+    color: #656667;
+    font-weight: normal;
+    text-align: start;
+    text-transform: none;
+}
