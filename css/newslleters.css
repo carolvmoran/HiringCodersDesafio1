@@ -1,0 +1,48 @@
+/* Newslleters  */
+div.newslleter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+/* Texto  */
+div.news h5 {
+    color: #656667;
+    font-size: 30px;
+}
+div.news p {
+    font-size: 21px;
+    color: #000;
+}
+/* Formulário de email  */
+div.formNewsletter {
+    display: flex;
+}
+div.formNewsletter form input {
+    height: 40px;
+    width: 480px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+    border-bottom: 1px solid #000;
+}
+input::placeholder {
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #656667;
+}
+button.btnRegister {
+    width: 210px;
+    height: 42px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+/* Texto  */
+div.formNewsletter p {
+    font-size: 12px;
+    color: #656667;
+}
