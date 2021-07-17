@@ -1,0 +1,292 @@
+@media only screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+/* Cabeçalho */
+
+/* Menu Principal */
+@media only screen and (max-width: 576px) {
+    nav {
+        display: flex !important;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav div.nav1 {
+        order: 2;
+        border-bottom: none;
+        border-top: 5px solid #fff;  
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav .nav1 ul li a img.iconNav {
+        width: 18px;
+        height: 18px;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav .nav1 ul li img.logo {
+        width: 131px;
+    } 
+}
+
+/* Some campo de Busca do Menu Principal */
+
+@media only screen and (max-width: 576px) {
+    nav .nav1 ul form {
+        display: none;
+    } 
+}
+
+/* Icones */
+@media only screen and (max-width: 576px) {
+    nav .nav1 ul ul li a img.icon {
+        width: 16px;
+        height: 18px;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav .nav1 ul ul li a img.iconBag {
+        width: 30px;
+        height: 20px;
+    } 
+}
+/* campo abaixo do menu principal */
+@media only screen and (max-width: 576px) {
+    nav div.nav2 {
+        order: 1;
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav div.nav2 .containerDownNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    nav div.nav2 .containerDownNav .textInform1 { 
+        text-align: center;
+        order: 2;
+        font-size: 11px;
+    } 
+}
+@media only screen and (max-width: 576px) {
+    nav div.nav2 .containerDownNav .textInform2 {
+        text-align: center;
+        order: 1;
+        font-size: 11px;
+    } 
+}
+
+/* Main */
+
+/* Primeiro Carousel  ---------------------------------------*/
+@media only screen and (max-width: 576px) {
+    div.carouselMain {
+        width: 100%;
+    }
+}
+/* Imagem */
+@media only screen and (max-width: 576px) {
+    div.carouselMain img {
+        width: 100%;
+    }
+}
+/* Setas */
+@media only screen and (max-width: 576px) {
+    div.carouselMain .slick-next.slick-arrow {
+        z-index: 1000;
+        right: 118px;
+        top: 107%;
+        transform: translate(0, -50%) rotate(0deg);
+    } 
+}
+@media only screen and (max-width: 576px) {
+    div.carouselMain .slick-prev.slick-arrow {
+        top: 107.5%;
+        left: 36.3%;
+        transform: translate(0, -50%) rotate(0deg);
+    } 
+}
+/* Dots  */
+@media only screen and (max-width: 576px) {
+    div.carouselMain .slick-dots {
+        right: -5%;
+        bottom: -25px !important;
+        transform: rotate(0deg);
+        width: 100% !important;
+    }  
+}
+
+/* Segundo Carousel */
+@media only screen and (max-width: 576px) {
+    div.carousel2 .slick-next.slick-arrow {
+        z-index: 1001;
+        top: 107%;
+        right: 98px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    div.carousel2 .slick-prev.slick-arrow {
+        z-index: 1001;
+        top: 107%;
+        left: 98px;
+    }
+}
+/* Terceiro Carousel  */
+@media only screen and (max-width: 576px) {
+    .mobileCarousel {
+        padding: 0 15px !important;
+    }
+}
+
+/* Cards de Produtos --------------------------------------------*/
+@media only screen and (max-width: 576px) {
+    div.col-xs-12.mobile {
+        padding: 0 15px !important;
+        margin-bottom: 15px !important;
+    }
+}
+/* Img de Texto  */
+@media only screen and (max-width: 576px) {
+    img.textCard {
+        height: 114px;
+    }
+}
+
+/* Sessão Up do Dia A Dia  ----------------------------------*/
+@media only screen and (max-width: 576px) {
+    .bgUp {
+        background-size: cover;
+        background-position: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    div.viewCollection {
+        align-items: center;
+        bottom: 166px;
+        left: 76px;
+    }
+}
+/* Texto */
+@media only screen and (max-width: 576px) {
+    div.textUpCollection {
+        font-size: 30px;
+    }
+}
+/* Imagem de Texto */
+@media only screen and (max-width: 576px) {
+    img.dayByDay {
+        width: 330px;
+        height: 134px;
+    }
+}
+/* Botão  */
+@media only screen and (max-width: 576px) {
+    button.btnViewCollection {
+        width: 331px;    
+    }
+}
+
+/* Newslleters  --------------------------------------*/
+@media only screen and (max-width: 576px) {
+    div.newslleter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+/* Texto  */
+@media only screen and (max-width: 576px) {
+    div.news h5 {
+        font-size: 23px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    div.news p {
+        font-size: 16px;
+    }
+}
+/* Formulário de e-mail  */
+@media only screen and (max-width: 576px) {
+    div.formNewsletter {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px) {
+    div.formNewsletter form input {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    input::placeholder {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    button.btnRegister {
+        width: 100%;
+        height: 48px;
+    }
+}
+/* Texto  */
+@media only screen and (max-width: 576px) {
+    div.formNewsletter p {
+        font-size: 14px;
+    }
+}
+
+/* Menu Institucional web ----------------------------------------*/
+@media only screen and (max-width: 576px) {
+    div.navFooter {
+        display: none;
+    }  
+}
+/* Menu Institucional mobile ----------------------------------------*/
+@media only screen and (max-width: 576px) {
+    div.navFooterMobile {
+        display: block;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    div.navFooterMobile {
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    div.navFooterMobile button {
+        color: #000;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+/* Formas de Pagamentos e Tecnologias */
+@media only screen and (max-width: 576px) {
+    div.tecsFooter {
+        width: auto;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    div.tecsFooter .tecs {
+        order: 3;
+    }  
+}
+@media only screen and (max-width: 576px) {
+    div.tecsFooter .secure {
+        order: 2;
+    }  
+}
+
+
